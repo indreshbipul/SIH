@@ -14,7 +14,6 @@ const farmerSchema = new mongoose.Schema({
     },
     dateOfBirth: {
         type: Date,
-        required: true
     },
     mobile: {
         type: String,
