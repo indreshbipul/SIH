@@ -1,0 +1,864 @@
+{
+  "layers": [
+    {
+      "property": "bdod",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "cec",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "cfvo",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "clay",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "nitrogen",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "ocd",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "ocs",
+      "layer_structure": [
+        {
+          "range": "0-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "phh2o",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "sand",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "silt",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "soc",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "wv0010",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "wv0033",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "property": "wv1500",
+      "layer_structure": [
+        {
+          "range": "0-5cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "5-15cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "15-30cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "30-60cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "60-100cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        },
+        {
+          "range": "100-200cm",
+          "values": [
+            "Q0.05",
+            "Q0.5",
+            "Q0.95",
+            "mean",
+            "uncertainty"
+          ]
+        }
+      ]
+    }
+  ]
+}

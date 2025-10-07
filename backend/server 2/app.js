@@ -4,6 +4,7 @@ const cookieParser = require('cookie-parser')
 dotenv.config()
 
 const weatherRoutes = require('./routes/weatherRoutes')
+const soilRoutes = require('./routes/soilRoutes')
 
 const app = express()
 
@@ -14,6 +15,7 @@ app.get('/',(req,res,next)=>{
 })
 
 app.use('/api',weatherRoutes)
+app.use('/api',soilRoutes)
 
 const port = process.env.PORT
 
