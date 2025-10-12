@@ -1,5 +1,9 @@
-const location = "kharagpur";
+const location = "823001";
+const  openmeteo = require('openmeteo')
 
+const  fetchWeatherApi = openmeteo.fetchWeatherApi
+
+// weather of now
 const realTime = async(req,res,next)=>{
     const options = {method: 'GET',
     headers: {accept: 'application/json'}};
@@ -15,6 +19,7 @@ const realTime = async(req,res,next)=>{
     });
 }
 
+// weather condition of now + six days later
 const forcast = async(req,res,next)=>{
     const url = `https://api.tomorrow.io/v4/weather/forecast?location=${location}&apikey=${process.env.WEATHER_API_KEY}&timesteps=1d`;
     const options = {
@@ -25,7 +30,7 @@ const forcast = async(req,res,next)=>{
     await fetch(url, options)
     .then(async(response) => {
         response = await response.json()
-        res.status(200).json({response})
+        res.status(200).json(response.timelines.daily)
     })
      .catch(err => {
         console.error(err)
@@ -33,6 +38,7 @@ const forcast = async(req,res,next)=>{
     });    
 }
 
+// weather timeline for today date 
 const timeLine = async(req,res,next)=>{
     const url = `https://api.tomorrow.io/v4/timelines?apikey=${process.env.WEATHER_API_KEY}`;
     const options = {
@@ -64,4 +70,9 @@ const timeLine = async(req,res,next)=>{
     });
 }
 
-module.exports = {realTime,forcast,timeLine}
+
+const weatherHistory = async (req,res,next)=>{
+   
+
+}
+module.exports = {realTime,forcast,timeLine,weatherHistory}

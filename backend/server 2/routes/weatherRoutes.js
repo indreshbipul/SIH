@@ -4,5 +4,6 @@ const weatherControllers = require('../controllers/weatherControllers')
 weatherRoutes.get('/realTime', weatherControllers.realTime)
 weatherRoutes.get('/forcast', weatherControllers.forcast)
 weatherRoutes.get('/timeLine', weatherControllers.timeLine)
+weatherRoutes.get('/weatherhistory', weatherControllers.weatherHistory)
 
 module.exports = weatherRoutes

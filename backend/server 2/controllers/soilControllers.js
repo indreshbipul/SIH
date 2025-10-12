@@ -18,9 +18,10 @@ const soilTypes = async(req,res,next)=>{
             return res.status(500).json("Internal server error")
         }
         response = await response.json();
-        return res.status(200).json(response)
+        const {wrb_class_probability} = response
+        return res.status(200).json(wrb_class_probability)
         })
-    .catch(err => {
+    .catch((err)=> {
         console.error(err)
         res.status(500).json("Internal server error")
     });
@@ -28,8 +29,8 @@ const soilTypes = async(req,res,next)=>{
 }
 
 const soilProperties = async (req,res,next)=>{
-    const longitude = 84.9926
-    const latitute = 25.7947
+    const longitude = 89.9926
+    const latitute = 27.7947
 
     const url = `https://rest.isric.org/soilgrids/v2.0/properties/query?lon=${longitude}&lat=${latitute}&property=bdod&property=cec&property=cfvo&property=clay&property=nitrogen&property=ocd&property=ocs&property=phh2o&property=sand&property=silt&property=soc&property=wv0010&property=wv0033&property=wv1500&depth=0-5cm&depth=0-30cm&depth=5-15cm&depth=15-30cm&value=mean&value=uncertainty`
 
@@ -41,7 +42,7 @@ const soilProperties = async (req,res,next)=>{
             }
         })
         response = await response.json()
-        res.status(200).json(response)
+        res.status(200).json(response.properties)
     }
     catch(err){
         res.status(500).json('Internal Server Error')
